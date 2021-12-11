@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: slategray;
+    height: 50px;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
