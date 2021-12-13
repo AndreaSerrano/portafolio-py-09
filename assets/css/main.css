@@ -1,18 +1,93 @@
 body{
     margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
 }
+
 nav{
-    background-color: slategray;
+    background-color: #fff;
     height: 50px;
     width: 100%;
   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
+    padding: 20px 0;
 }
 
 nav a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
+    font-size: 20px; 
+    margin-right: 20px;
 }
+
+nav a:hover{
+    color: #c0c0c0;
+    font-size: 23px;
+}
+
+#hero-home{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: bottom;
+    
+}
+
+#hero-home img{
+    width: 25%;
+    height: 280px;
+    border-radius: 100%;
+    border: 6px #fff solid;
+    
+}
+
+#grid-example{
+    display: grid;
+}
+
+#grid-example h3{
+    font-size: 25px;
+    place-self: center;
+}
+#grid-container{
+    display: grid;
+    height:  450px; width: auto;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 200px 200px;
+    column-gap: 15px;
+    row-gap: 15px;
+
+    justify-content: center;
+}
+
+#grid-container div{
+    background-color: #000;
+    border: solid black 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: justify;
+    padding: 15px;
+}
+
+#btn{
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    border-style: solid;
+}
+
+#btn:hover{
+    height: 35px; width: 105px;
+    color: #fff;
+    background-color: #000;
+}
+
